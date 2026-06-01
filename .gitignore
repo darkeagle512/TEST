@@ -1,0 +1,29 @@
+# Build directories
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Executables
+opengl_sphere
+opengl_sphere.exe
+
+# Dependencies
+.conan/
